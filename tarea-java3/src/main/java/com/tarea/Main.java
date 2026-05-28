@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sca = new Scanner(System.in);
+        Scanner sca = new Scanner(System.in); // un solo scanner se consume antes de acabar
         Scanner sca2 = new Scanner(System.in);
 
         System.out.println("Ingrese los datos del perro: nombre, raza, fecha de nacimiento y peso");
