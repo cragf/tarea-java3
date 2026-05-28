@@ -2,7 +2,7 @@ package com.tarea;
 
 public class Mamifero {
     String nombre, raza, fechaNacimiento;
-    float peso;
+    double peso;
 
     public void comer(){
         System.out.println("ñam ñam...");
